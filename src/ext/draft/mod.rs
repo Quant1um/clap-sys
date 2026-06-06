@@ -1,9 +1,12 @@
 pub mod extensible_audio_ports;
 pub mod gain_adjustment_metering;
-pub mod location;
+pub mod mini_curve_display;
+pub mod octave_number;
+pub mod project_location;
 pub mod resource_directory;
 pub mod scratch_memory;
 pub mod transport_control;
 pub mod triggers;
 pub mod tuning;
 pub mod undo;
+pub mod webview;
