@@ -1,5 +1,5 @@
 use crate::{cstr, host::clap_host, plugin::clap_plugin};
-use std::ffi::CStr;
+use core::ffi::CStr;
 
 pub const CLAP_EXT_MINI_CURVE_DISPLAY: &CStr = cstr!("clap.mini-curve-display/3");
 

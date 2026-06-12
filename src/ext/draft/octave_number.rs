@@ -1,5 +1,5 @@
 use crate::{cstr, plugin::clap_plugin};
-use std::ffi::CStr;
+use core::ffi::CStr;
 
 pub const CLAP_EXT_OCTAVE_NUMBER: &CStr = cstr!("clap.octave-number/1");
 

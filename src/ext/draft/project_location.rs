@@ -5,8 +5,8 @@ use crate::{
     string_sizes::{CLAP_NAME_SIZE, CLAP_PATH_SIZE},
 };
 
-use std::ffi::c_char;
-use std::ffi::CStr;
+use core::ffi::c_char;
+use core::ffi::CStr;
 
 pub const CLAP_EXT_PROJECT_LOCATION: &CStr = cstr!("clap.project-location/2");
 

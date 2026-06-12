@@ -1,5 +1,5 @@
 use crate::{cstr, host::clap_host, plugin::clap_plugin, stream::clap_ostream};
-use std::ffi::{c_char, c_void, CStr};
+use core::ffi::{c_char, c_void, CStr};
 
 pub const CLAP_EXT_WEBVIEW: &CStr = cstr!("clap.webview/3");
 
