@@ -1,3 +1,10 @@
+# Unreleased
+
+- Update to CLAP version 1.2.10.
+- Rename `clap_plugin_tuning_t` to `clap_plugin_tuning`.
+- Use `c_char` for mini-curve axis name buffers.
+- Make webview resource stream pointer const.
+
 # 0.5.0
 
 - Update to CLAP version 1.2.2.

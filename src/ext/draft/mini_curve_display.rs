@@ -1,5 +1,5 @@
 use crate::{cstr, host::clap_host, plugin::clap_plugin};
-use core::ffi::CStr;
+use core::ffi::{c_char, CStr};
 
 pub const CLAP_EXT_MINI_CURVE_DISPLAY: &CStr = cstr!("clap.mini-curve-display/3");
 
@@ -46,8 +46,8 @@ pub struct clap_plugin_mini_curve_display {
         unsafe extern "C" fn(
             plugin: *const clap_plugin,
             curve_index: u32,
-            x_name: *mut i8,
-            y_name: *mut i8,
+            x_name: *mut c_char,
+            y_name: *mut c_char,
             name_capacity: u32,
         ) -> bool,
     >,
